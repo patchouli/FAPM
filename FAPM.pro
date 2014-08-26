@@ -13,8 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        fapm.cpp
+        fapm.cpp \
+    net.cpp
 
-HEADERS  += fapm.h
+HEADERS  += fapm.h \
+    net.h
 
 FORMS    += fapm.ui
+
+QT += network
